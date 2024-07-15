@@ -10,7 +10,7 @@ import { useEffect, useRef, useState } from "react";
 
 export default function NumbersSection() {
   const [isShowNumb, setIsShowNumb] = useState(false);
-  const elementRef = useRef(null);
+  const elementRef = useRef<HTMLUListElement>(null);
 
   useEffect(() => {
     function scrollToNumbers() {
