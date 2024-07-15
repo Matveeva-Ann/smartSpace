@@ -1,0 +1,16 @@
+:root {
+  --text-color: #3a3a3a;
+  --hero-text-color: #ffffff;
+  --color-primary: #025add;
+  --color-secondary: #0c6de0;
+  --color-accent: #195194;
+  --color-violet: #7b68ee;
+}
+
+@font-face {
+  font-family: 'Lobster-Regular';
+  src: url('./fonts/Lato-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
